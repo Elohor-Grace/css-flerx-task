@@ -1,0 +1,32 @@
+.container {
+    height: 90vh;
+    width: 150vh;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px 10px; 
+  }
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  
+  }
+  .cell-1 {
+    background: red;
+  
+  }
+  .cell-2 {
+    background: gold;
+  }
+  .cell-3 {
+    background: green;
+  }
+  .cell-4 {
+    background: blue;
+  }
+  .cell-5 {
+    background: blue;
+  }
